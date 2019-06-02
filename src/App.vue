@@ -1,5 +1,6 @@
 <template>
   <v-app>
+      <Countdown/>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
         <span class="font-weight-light">FLORISH</span>
@@ -48,11 +49,14 @@
 </template>
 
 <script>
+import Countdown from './components/Countdown.vue';
+
 import {mapState} from 'vuex'
 export default {
   computed: {
     ...mapState(['user'])
-  }
+  },
+  components: { Countdown }
 }
 </script>
 

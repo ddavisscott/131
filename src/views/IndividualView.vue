@@ -1,6 +1,12 @@
 <template>
 <v-container>
-<TopNav/>
+<TopNav
+title1 = "Group View"
+title2 = "Individual View"
+title3 = "signup"
+dest1 = "/"
+dest2 = "individual_view"
+dest3 =  ""></TopNav>
 <v-layout row justify-content-space-between>
        <v-flex xs6 mr-3 >
          <v-card class="flower-card"
@@ -22,7 +28,7 @@
 </template>
 
 <script>
-  import Landing from '../components/Landing'
+import Landing from '../components/Landing'
 import TopNav from '../components/TopNav'
 import Calendar from '../components/Calendar'
   export default {

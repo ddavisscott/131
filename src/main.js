@@ -6,12 +6,23 @@ import Vuetify from 'vuetify'
 import router from './routes'
 import store from './store/store'
 import FirebaseAuthPlugin from './firebase/'
+import VueCountdownTimer from 'vuejs-countdown-timer'
+
 
 Vue.config.productionTip = false
-Vue.use(FirebaseAuthPlugin)
+Vue.use(FirebaseAuthPlugin, VueCountdownTimer)
 Vue.use(Vuetify)
 
 sync(store, router)
+
+Vue.filter('two_digits', function (value) {
+  if(value.toString().length <= 1)
+  {
+      return "0"+value.toString();
+  }
+  return value.toString();
+});
+
 
 new Vue({
   router,
