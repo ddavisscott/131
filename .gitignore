@@ -1,0 +1,9 @@
+# Editor Gitignore
+.idea/
+
+# MacOS
+
+## General
+.DS_Store
+.AppleDouble
+.LSOverride
