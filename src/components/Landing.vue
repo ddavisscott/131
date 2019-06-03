@@ -59,7 +59,34 @@
         <v-card>
         <v-card-title primary-title>
           <div>
-            <h3 class="headline mb-0">Create a Task</h3>
+            <h3 class="headline mb-0">Meeting Manager</h3>
+
+        <v-flex xs6  ml-3>
+         <v-layout row justify-content-space-between>
+          
+        <v-flex xs7 mr-3 ml-1>
+          <v-btn 
+          to="individual_view"
+          block 
+          color="secondary" 
+          dark>When To Meet</v-btn>
+      </v-flex>
+      <v-spacer></v-spacer>
+      <v-flex xs7  >
+          <v-btn 
+          to="individual_view"
+          block 
+          color="secondary" dark>Standup Meeting</v-btn>
+      </v-flex> 
+      <v-flex xs7  ml-3 mr-1>
+          <v-btn 
+          to="individual_view"
+          block 
+          color="secondary" 
+          dark>Meeting Notes</v-btn>
+      </v-flex> 
+    </v-layout>
+                 </v-flex>
            
           </div>
         </v-card-title>
