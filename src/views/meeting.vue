@@ -1,6 +1,6 @@
 <template>
 <v-container>
-  <v-layout row justify-content-space-between>
+  <!-- <v-layout row justify-content-space-between>
         <v-flex xs4 mr-3 ml-1>
           <v-btn block color="secondary" dark>When To Meet</v-btn>
       </v-flex>
@@ -11,7 +11,7 @@
       <v-flex xs4  ml-3 mr-1>
           <v-btn block color="secondary" dark>Meeting Notes</v-btn>
       </v-flex> 
-    </v-layout>
+    </v-layout> -->
 
     <v-layout xs12 row justify-content-space-between>
       

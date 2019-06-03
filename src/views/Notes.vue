@@ -1,6 +1,6 @@
 <template>
 <v-container>
-  <v-layout xsrow justify-content-space-between>
+  <!-- <v-layout xsrow justify-content-space-between>
         <v-flex xs4 mr-3 ml-1>
           <v-btn block color="secondary" dark>When To Meet</v-btn>
       </v-flex>
@@ -11,7 +11,7 @@
       <v-flex xs4  ml-3 mr-1>
           <v-btn block color="secondary" dark>Meeting Notes</v-btn>
       </v-flex> 
-    </v-layout>
+    </v-layout> -->
 
     <v-layout xs12 row justify-content-space-between>
       <v-flex xs6>
@@ -40,7 +40,7 @@
       <div class="chart-card">
         <v-card>
           <br>
-        <h3 class="headline ml-5 mt-4">Meeting Notes</h3>
+        <h3 class="headline ml-5 mt-4">Standup Scrum Meeting</h3>
           <br/>
           <div class="chart-card">
         <v-textarea

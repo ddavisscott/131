@@ -66,7 +66,7 @@
           
         <v-flex xs7 mr-3 ml-1>
           <v-btn 
-          to="individual_view"
+          to=""
           block 
           color="secondary" 
           dark>When To Meet</v-btn>
@@ -74,13 +74,13 @@
       <v-spacer></v-spacer>
       <v-flex xs7  >
           <v-btn 
-          to="individual_view"
+          to="notes"
           block 
           color="secondary" dark>Standup Meeting</v-btn>
       </v-flex> 
       <v-flex xs7  ml-3 mr-1>
           <v-btn 
-          to="individual_view"
+          to="notes"
           block 
           color="secondary" 
           dark>Meeting Notes</v-btn>
@@ -92,7 +92,7 @@
         </v-card-title>
 
         <v-card-actions>
-          <img  src = "../assets/heatmap.png">
+          <img  src = "../assets/heatmap.png" width="100%">
         </v-card-actions>
       </v-card>
       </v-flex>
