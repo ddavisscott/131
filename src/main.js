@@ -8,10 +8,11 @@ import store from './store/store'
 import FirebaseAuthPlugin from './firebase/'
 import VueCountdownTimer from 'vuejs-countdown-timer'
 
-
 Vue.config.productionTip = false
 Vue.use(FirebaseAuthPlugin, VueCountdownTimer)
-Vue.use(Vuetify)
+Vue.use(Vuetify, {
+  components: {  }
+})
 
 sync(store, router)
 

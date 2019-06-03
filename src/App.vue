@@ -1,6 +1,5 @@
 <template>
   <v-app>
-      <Countdown/>
     <v-toolbar app>
       <v-toolbar-title class="headline text-uppercase">
         <span class="font-weight-light">FLORISH</span>
@@ -46,6 +45,7 @@
       <router-view></router-view>
     </v-content>
   </v-app>
+
 </template>
 
 <script>
@@ -56,7 +56,7 @@ export default {
   computed: {
     ...mapState(['user'])
   },
-  components: { Countdown }
+  components: { Countdown, }
 }
 </script>
 

@@ -15,27 +15,26 @@
 <!--  START BUTTON    -->
 <div id="buttons">
 <!--     Start TImer -->
-    <button 
-      id="start" 
-      class="button is-dark is-large" 
-      @click="startTimer">Start
-    </button>
+<v-btn 
+color="warning"
+id="start" 
+class="button is-dark is-large" 
+@click="startTimer"
+>Start</v-btn>
     <!--     Pause Timer -->
-    <button 
-      id="stop" 
-      class="button is-dark is-large" 
-      v-if="timer"
-      @click="stopTimer">
-        <i class="far fa-pause-circle"></i>
-    </button>
+    <v-btn 
+    color="warning"
+    id="stop" 
+    class="button is-dark is-large"  
+    @click="stopTimer">
+    Stop</v-btn>
     <!--     Restart Timer -->
-    <button 
-      id="reset" 
-      class="button is-dark is-large" 
-      v-if="resetButton"
-      @click="resetTimer">
-        <i class="fas fa-undo"></i>
-    </button>
+   <v-btn 
+    color="warning"
+    id="reset" 
+    class="button is-dark is-large" 
+    @click="resetTimer">
+    Reset</v-btn>
 </div>
   </div>
 
@@ -55,7 +54,7 @@
 }
 
 #timer {
-  font-size: 200px;
+  font-size: 40px;
   line-height: 1;
   margin-bottom: 40px;
 }
