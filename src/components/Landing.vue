@@ -80,7 +80,7 @@
       </v-flex> 
       <v-flex xs7  ml-3 mr-1>
           <v-btn 
-          to="notes"
+          to="meeting"
           block 
           color="secondary" 
           dark>Meeting Notes</v-btn>
