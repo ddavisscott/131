@@ -7,9 +7,9 @@
                   <span>{{description}}</span>
                 </div>
               </v-card-title>
-              <v-card-actions>
+              <!-- <v-card-actions>
                 <v-btn flat dark>Delete</v-btn>
-              </v-card-actions>
+              </v-card-actions> -->
 </v-card>   
  </div>
 </template>

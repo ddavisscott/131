@@ -18,19 +18,19 @@
       <div class="chart-card">
         <v-card>
           <br>
-        <h3 class="headline ml-5 mt-4">Meeting Notes</h3>
+        <h3 class="headline ml-5 mt-4">Best Practices for Standup Meetings</h3>
           <br/>
          <note
-         title = "Note 1"
-         description = "Description text" />
+         title = "Checking in on recent work."
+         description = "Ask: What did you do yesterday?"/>
          <br>
          <note
-         title = "Note 2"
-         description = "Description text2" />
+         title = "Setting goals for today."
+         description = "Ask: What are you going to do today?" />
            <br>
          <note
-         title = "Note 3"
-         description = "Description text3" />
+         title = "Getting help where you need it!"
+         description = "Ask: Is there anything getting in your way?" />
          
           <br>
       </v-card>
