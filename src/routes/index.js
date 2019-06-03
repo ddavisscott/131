@@ -21,7 +21,10 @@ const router = new Router({
     {
       path: '/',
       name: 'home',
-      component: Home
+      component: Home,
+      meta: {
+        authRequired: true
+      }
     },
     {
       path: '/signin',

@@ -13,7 +13,6 @@ dest3 =  ""></TopNav>
 
 <script>
   import Landing from '../components/Landing'
-  
 import TopNav from '../components/TopNav'
   export default {
     components: {

@@ -70,7 +70,7 @@ module.exports = {
   data: function () {
     return {
       timer: null,
-totalTime: (25 * 60),
+totalTime: (15 * 60),
 resetButton: false,
 title: "Let the countdown begin!!"
     }
@@ -87,7 +87,7 @@ stopTimer: function() {
   this.resetButton = true;
 },
 resetTimer: function() {
-  this.totalTime = (25 * 60);
+  this.totalTime = (15 * 60);
   clearInterval(this.timer);
   this.timer = null;
   this.resetButton = false;

@@ -9,7 +9,32 @@
         flat
         :to="{name: 'home'}"
       >
-        <span class="mr-2">Home</span>
+        <span class="mr-2">Group View</span>
+      </v-btn>
+      <v-btn
+        flat
+        :to="{name: 'individual_view'}"
+      >
+        <span class="mr-2">Individual View</span>
+      </v-btn>
+      <v-btn
+        flat
+        :to="{name: 'burndown'}"
+      >
+        <span class="mr-2">Chart</span>
+      </v-btn>
+      <v-btn
+        flat
+        :to="{name: 'road_blocks'}"
+      >
+        <span class="mr-2">Road Blocks</span>
+      </v-btn>
+
+      <v-btn
+        flat
+        :to="{name: 'notes'}"
+      >
+        <span class="mr-2">Notes</span>
       </v-btn>
       <v-btn
         flat
@@ -18,6 +43,9 @@
       >
         <span class="mr-2">Login</span>
       </v-btn>
+      
+      
+  
       <v-btn
         flat
         v-show="!user" 
