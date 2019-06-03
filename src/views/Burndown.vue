@@ -18,11 +18,11 @@
       <div class="chart-card">
         <v-card>
           <br>
-        <h3 class="ml-5 mt-4">Burndown Chart</h3>
+        <h3 class="headline ml-5 mt-4">Burndown Chart</h3>
           <br/>
          <img class="img" src="../assets/chart.png">
          <div class="effort">
-         <h3>Number of Effort:</h3>
+         <h3 class="headline mb-0">Number of Effort:</h3>
           <v-text-field
             label="enter your effort"
             single-line
