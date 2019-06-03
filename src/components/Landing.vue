@@ -119,7 +119,7 @@
             v-model="des"
           ></v-text-field>
            <v-text-field
-            label="Hour"
+            label="hour"
             single-line
             outline
             v-model="hour"
@@ -168,7 +168,7 @@
         {title: 'High Priority task', description: 'Description text2'}
       ],
       tasks: [
-        {name: 'Nav Bar', hour: '7',  points: '5', des: 'create a nav bar'},
+        {name: 'Main Menu', hour: '7',  points: '5', des: 'create a nav bar'},
         {name: 'side bar', hour: '4',  points: '3', des: 'create a side bar'}
       ],
       user: 'Ciaran',
