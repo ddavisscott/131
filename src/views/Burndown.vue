@@ -14,8 +14,12 @@
     </v-layout>
 
     <v-layout xs12 row justify-content-space-between>
+      
       <div class="chart-card">
         <v-card>
+          <br>
+        <h3 class="ml-5 mt-4">Burndown Chart</h3>
+          <br/>
          <img class="img" src="../assets/chart.png">
          <div class="effort">
          <h3>Number of Effort:</h3>
@@ -28,6 +32,7 @@
           <v-btn color="warning">Enter</v-btn>
            <v-btn flat small>Cancel</v-btn>
           </div>
+          <br>
       </v-card>
       </div>
       
@@ -44,9 +49,11 @@
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 30px;
   width: 90%;
 }
 .img {
+  margin-left: 30px;
   width: 90%;
 }
 .effort {
