@@ -45,14 +45,18 @@
       <router-view></router-view>
     </v-content>
   </v-app>
+
 </template>
 
 <script>
+import Countdown from './components/Countdown.vue';
+
 import {mapState} from 'vuex'
 export default {
   computed: {
     ...mapState(['user'])
-  }
+  },
+  components: { Countdown, }
 }
 </script>
 
