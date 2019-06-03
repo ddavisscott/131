@@ -4,17 +4,17 @@
     <h3>Name of the Task: </h3>
     {{name}}
     <h3>Estimated Hours: </h3>
-    {{hours}}
+    {{hour}}
     <h3>Points: </h3>
     {{points}}
-    <h3>Description: Description: </h3>
+    <h3>Description: </h3>
    {{des}}
     </div>
   </v-card>    
 </template>
 <script>
   export default {
-    props: ['name', 'hours', 'points', 'des'],
+    props: ['name', 'hour', 'points', 'des'],
   }
 </script>
 <style scoped>

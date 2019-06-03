@@ -123,6 +123,7 @@ import TopNav from '../components/TopNav'
 import task from '../components/task'
 import roadblock from '../components/roadblock'
 import { VCard, VCardText, VCardMedia } from 'vuetify/lib'
+import tasks from '../components/Landing.vue'
 
   export default {
     data: () => ({
@@ -140,7 +141,7 @@ import { VCard, VCardText, VCardMedia } from 'vuetify/lib'
       select: null,
       items: [
         'Backlog',
-        'In Porgress',
+        'In Progress',
         'Complete',
         'In Production'
       ],

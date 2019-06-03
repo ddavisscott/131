@@ -20,7 +20,6 @@
           <br>
         <h3 class=" headline ml-5 mt-4">Meeting Notes</h3>
           <br/>
-
           <note 
           v-for = "note in notes" 
           v-bind:key= 'note.title'

@@ -122,7 +122,7 @@
             label="Hour"
             single-line
             outline
-            v-model="hours"
+            v-model="hour"
           ></v-text-field>
            <v-text-field
             label="Point"
@@ -160,7 +160,7 @@
       newTitle:'',
       newDescription: '',
       name: '',
-      hours: '',
+      hour: '',
       points: '',
       des: '',
       notes: [
@@ -168,8 +168,8 @@
         {title: 'High Priority task', description: 'Description text2'}
       ],
       tasks: [
-        {name: 'Nav Bar', hours: '7',  points: '5', des: 'create a nav bar'},
-        {name: 'side bar', hours: '4',  points: '3', des: 'create a side bar'}
+        {name: 'Nav Bar', hour: '7',  points: '5', des: 'create a nav bar'},
+        {name: 'side bar', hour: '4',  points: '3', des: 'create a side bar'}
       ],
       user: 'Ciaran',
       userLevel: 'Admin'
@@ -191,7 +191,7 @@
         this.tasks.push ({name: this.name, hours: this.hours, points: this.points, des: this.des})
     }
     this.name = '';
-    this.hours = '';
+    this.hour = '';
     this.points = '';
     this.des = '';
       }
